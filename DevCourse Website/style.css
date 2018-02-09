@@ -1,0 +1,232 @@
+/* Styling body by adding background image and set if to cover, add font-family */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', 'Ariel', sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+    position: relative;
+    background-color: #022258 !important;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* STYLING NAVBAR */
+.navbar-custom {
+  font-size: 16px;
+  background-color: #022258;
+  border-color: #011538;
+  opacity: 0.8;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#03358a), to(#022258));
+  background-image: -webkit-linear-gradient(top, #03358a, 0%, #022258, 100%);
+  background-image: -moz-linear-gradient(top, #03358a 0%, #022258 100%);
+  background-image: linear-gradient(to bottom, #03358a 0%, #022258 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff03358a', endColorstr='#ff022258', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #fff;
+  font-size: 22px;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #a7a7a7;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #011538;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #c0c0c0;
+  border-left: 1px solid #011538;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #011538;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#011538), to(#022969));
+  background-image: -webkit-linear-gradient(top, #011538, 0%, #022969, 100%);
+  background-image: -moz-linear-gradient(top, #011538 0%, #022969 100%);
+  background-image: linear-gradient(to bottom, #011538 0%, #022969 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff011538', endColorstr='#ff022969', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #011535;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #011538;
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #c0c0c0;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #011538;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-header button {
+  background: transparent;
+}
+
+video#bg {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent !important;
+  width: 100%;
+  position: relative;
+}
+
+.jumbotron .container-fluid {
+  color: #fff !important;
+  margin-top: 7%;
+  padding-bottom: 50px;
+  width: 100%;
+  position: absolute;
+}
+
+.jumbotron .container-fluid h2{
+  margin-bottom: 150px;
+}
+
+.jumbotron .container-fluid a {
+  background-color: rgba(20, 21, 99, 0.9);
+  border: 1px solid rgb(20, 21, 99);
+  border-radius: 30px;
+  padding: 16px 40px;
+  font-size: 20px;
+}
+
+.jumbotron .container-fluid a:hover {
+  background-color: rgb(29, 30, 91);
+  border: 1px solid rgb(29, 30, 91);
+}
+
+#home h1 {
+  margin-bottom: 36px;
+}
+
+#about {
+  position: relative;
+  margin-top: 550px;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#about .col-md-4 {
+  text-align: center;
+  padding: 120px 0 70px 0;
+
+}
+
+.icon-about {
+  height: 120px;
+}
+
+#promise {
+
+  height: 600px;
+  color: #fff;
+  position: relative;
+  margin-top: 60px;
+  padding-top: 60px;
+}
+
+#myCarousel {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-inner .item img {
+  height: 500px !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.carousel-inner .item p {
+  font-size: 28px;
+  background: rgba(0, 0, 0, 0.5);
+}

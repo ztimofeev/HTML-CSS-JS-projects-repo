@@ -1,0 +1,180 @@
+/* Styling body by adding background image and set if to cover, add font-family */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: 'Lato', 'Ariel', sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+}
+
+.clear {zoom: 1}
+.clear:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.section-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg-2.jpg') no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/* Style brand */
+.navbar .logo {
+  height: 30px;
+  opacity: 0.9;
+  margin: 0 30px 0 45px;
+}
+/* STYLING NAVBAR */
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 0 !important;
+  border-bottom: rgba(0, 0, 0, 0.8) !important;
+  margin: 0 !important;
+}
+
+.nav li {
+  opacity: 0.9;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 5px 0;
+}
+
+.nav li a {
+  color: rgba(255,255,255,0.8) !important;
+}
+
+.nav li a:hover {
+  border-bottom: 2px solid orange;
+  color: #fff !important;
+}
+
+.nav li:hover {
+  padding-bottom: 3px;
+}
+/* END NAVBAR */
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: transparent !important;
+  color: #fff !important;
+  font-family: 'Lato', 'Ariel', sans-serif !important;
+  text-align: center;
+}
+
+.jumbotron .text-heading {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.heading .row {
+  margin-top: 5%;
+}
+
+/* ICON PART */
+.icon {
+  height: 50px;
+}
+/* STYLING THE BUTTONS */
+
+.btn-box {
+  margin: 6% 0 2% 0;
+}
+
+.btn-box .first,
+.btn-box .first:active,
+.btn-box .first:visited {
+  background-color: #E57E00;
+  border: 1px solid #E57E00;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.btn-box .second:link,
+.btn-box .second:visited {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #E57E00;
+  color: #fff;
+}
+
+.btn-box .btn:hover,
+.btn-box .second:active, {
+  background-color: #D85600;
+  border: 1px solid #D85600;
+  color: #fff;
+}
+
+/* SECTION 1 - INTRO */
+.section-1 {
+  margin: 70px auto;
+}
+
+.intro .row {
+  text-align: center;
+}
+
+.sec-1-icon {
+  height: 100px;
+  margin: 20px 0;
+}
+
+.sec-heading {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.section-2 {
+    padding: 0;
+    margin: 0 0 70px 0;
+    position: relative;;
+}
+
+/* SECTION 2 - SHOWCASE */
+
+.tech-showcase {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-2 .tech-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.tech-img {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.tech-img img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.tech-img img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
