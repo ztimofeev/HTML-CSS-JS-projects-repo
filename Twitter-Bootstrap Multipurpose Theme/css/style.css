@@ -1,0 +1,115 @@
+.header {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-bottom: 48px
+}
+
+.header .btn-primary {
+  background: #313461;
+  border-color: #313461;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+.jumbotron h1 {
+  margin-bottom: 20px;
+}
+
+.jumbotron p.lead {
+  font-size: 24px;
+}
+
+.jumbotron-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.navbar .container {
+  padding: 0, 60px, 40px 60px;
+  margin-bottom: 30px
+}
+
+.btn {
+  margin: 2% 5px 0 0;
+}
+
+.navbar a {
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.navbar a:hover {
+  background: none !important;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.header .jumbotron {
+  padding-top: 10px;
+}
+
+.box {
+  text-align: center;
+}
+
+.box .glyphicon {
+  font-size: 30px;
+}
+
+.box p {
+  text-align: justify;
+}
+
+.section-a {
+  background: #313461;
+  color: #fff;
+  text-align: center;
+  padding: 30px 6% 56px 6%;
+  margin: 30px 0 30px 0;
+}
+
+.section-a h1 {
+  font-size: 50px;
+}
+
+.img-full {
+  height: 100%;
+}
+
+.list-heading {
+  font-size: 60px !important;
+}
+
+.sec-b, .p-bigger {
+  font-size: 16px;
+}
+
+.main-footer {
+  background-color: #f5f5f5;
+  padding: 30px 50px;
+  margin-top: 20px;
+}
+
+.main-footer li a {
+  font-size: 16px;
+  color: rgb(73, 72, 74);
+  text-decoration: none;
+}
+
+.main-footer li a:hover {
+  background: #a6aae2;
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  background: rgb(140, 140, 140);
+  border-color: rgb(140, 140, 140);
+  color: #fff;
+}
